@@ -1,0 +1,15 @@
+1. User registration
+
+    url: http://127.0.0.1:8000/user_registration
+    method: POST
+    payload: {
+        "name": "string",
+        "email": "string",
+        "password": "string"
+    }
+
+
+2. Search blood bank by city name
+
+    url: http://127.0.0.1:8000/get_bloodbank/city_name
+    Method: GET
